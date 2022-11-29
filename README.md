@@ -6,7 +6,7 @@ This Python application utilizes the **docker-py** library to implement basic fu
 Program stops executing by manual intervention only, otherwise it will continue to run.
 
 
-###### Implementation 
+## Implementation 
 This script bootstraps an Ubuntu-based CLI bash window and keeps it open in its Docker image.
 
 - If the script finds any Docker containers in running state in the local system, they will be stopped before running the intended Ubuntu **/bin/bash** container.
